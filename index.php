@@ -18,7 +18,42 @@
 		
 		<!-- Header Section -->
 			<div id="header">
-				<!-- Here we start -->
+
+				<div class="content">
+					<div class="mx-auto wrapper">
+						
+						<!-- Logo -->
+						<div class="text-center pt-5 mb-5">
+							<a href="index.php" title="Midia Pack - Centenas de Arquivos Editáveis Para Empresas e Microempreendedores"><img src="images/logo.png" height="100px"></a>
+
+							<h1 class="h2 text-white text-uppercase font-weight-bold mt-3">Cresça a imagem da sua empresa ou negócio conosco!</h1>
+							<p class="h4 text-primary">Pacote de artes editáveis exclusivas para sua empresa</p>
+						</div>
+
+					</div>
+
+					<div class="container">
+						<div class="row mt-5">
+							
+							<div class="col-12 col-md-6 d-flex justify-content-center" style="align-items: center;">
+								<h2 class="h2 text-light font-weight-normal text-center">Seu negócio merece uma cara nova. Inove com novas artes e veja o tão resultado resultado chegar de forma eficaz.</h2>
+							</div>
+
+							<div class="col-12 col-md-6">
+								<iframe width="500" height="280" src="https://www.youtube.com/embed/JyJ4b3XuYWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+
+						</div>
+				 	</div>
+
+				</div>
+
+				<div class="wavy">
+					<svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+			    		<path d="M0,0 C150,120 350,0 500,50 L500,00 L0,0 Z" style="stroke: none; fill:#702ae8;"></path>
+			  		</svg>
+			  	</div>
+
 			</div>
 		<!-- Header Section: End -->
 

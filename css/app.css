@@ -1,3 +1,59 @@
 body {
 	font-family: Jost, Roboto, sans-serif;
 }
+
+
+/* Header */
+#header .content {
+	background-color: #702ae8;
+}
+
+/* Wavy border */
+.wavy {
+	padding: 0;
+	display: inline-block;
+  	position: relative;
+  	width: 100%;
+  	min-height: 80px;
+  	vertical-align: middle;
+  	overflow: hidden;
+}
+.wavy svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media(min-width: 655px) {
+	.wavy { min-height: 130px; }
+}
+@media(min-width: 1024px) {
+	.wavy { min-height: 160px; }
+}
+@media(min-width: 1250px) {
+	.wavy { min-height: 200px; }
+}
+
+/* Custom grid */
+.wrapper {
+	width: 100%;
+}
+@media(min-width: 768px) {
+	.wrapper {
+		width: 500px;
+	}
+}
+@media(min-width: 1024px) {
+	.wrapper {
+		width: 700px;
+	}
+}
+
+
+/* Changing bootstrap default colors */
+.text-primary {
+	color: #ffe100 !important;
+}
+.bg-primary {
+	background-color: #ffe100 !important;
+}
