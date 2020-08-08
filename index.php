@@ -35,8 +35,12 @@
 					<div class="container">
 						<div class="row mt-5">
 							
-							<div class="col-12 col-md-6 d-flex justify-content-center" style="align-items: center;">
-								<h2 class="h2 text-light font-weight-normal text-center">Seu negócio merece uma cara nova. Inove com novas artes e veja o tão resultado resultado chegar de forma eficaz.</h2>
+							<div class="position-relative col-12 col-md-6 d-flex justify-content-center" style="align-items: center;">
+								<h2 class="h2 text-light font-weight-normal text-center">Seu negócio merece uma cara nova. Inove com novas artes e veja o tão resultado chegar de forma eficaz.</h2>
+
+
+								<!-- Call to action button -->
+								<button type="button" class="btn-cta">Desejo o Kit!</button>
 							</div>
 
 							<div class="col-12 col-md-6">
@@ -58,7 +62,11 @@
 		<!-- Header Section: End -->
 
 		<!-- Body Section -->
-			<div id="body"></div>
+			<div id="body">
+				
+
+
+			</div>
 		<!-- Body Section: End -->
 
 		<!-- Footer Section -->

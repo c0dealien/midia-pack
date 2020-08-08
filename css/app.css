@@ -7,6 +7,25 @@ body {
 #header .content {
 	background-color: #702ae8;
 }
+#header .btn-cta {
+	position: absolute;
+	bottom: -30px;
+	z-index: 1;
+	height: 50px;
+	width: 150px;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #702ae8;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+	animation: btn_cta_move 0.4s infinite;
+	animation-direction: alternate;
+}
+@keyframes btn_cta_move {
+	from { transform: scale(1.0); }
+	to { transform: scale(1.1); }
+}
 
 /* Wavy border */
 .wavy {
