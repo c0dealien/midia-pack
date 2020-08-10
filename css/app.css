@@ -1,5 +1,6 @@
 body {
 	font-family: Jost, Roboto, sans-serif;
+	background-color: #4e1ca3;
 }
 
 
@@ -7,10 +8,12 @@ body {
 #header .content {
 	background-color: #702ae8;
 }
-#header .btn-cta {
+#header .details {
 	position: absolute;
-	bottom: -30px;
+	bottom: -70px;
 	z-index: 1;
+}
+#header .btn-cta {
 	height: 50px;
 	width: 150px;
 	font-size: 1.25rem;
@@ -26,6 +29,44 @@ body {
 	from { transform: scale(1.0); }
 	to { transform: scale(1.1); }
 }
+/* Media queries */
+@media screen and (max-width: 1124px) {
+	#header iframe { width: 350px; height: 195px; }
+	#header .copy-2 { font-size: 1.5rem; }
+}
+@media screen and (max-width: 950px) {
+	#header .copy-1 { font-size: 1.5rem; }
+	#header .content {
+		height: 600px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#header .call-to-action .details {
+		position: static !important;
+		margin-bottom: 40px;
+	}
+	#header .copy-2 {
+		display: none;
+	}
+	#header .content { height: 650px; }
+}
+@media screen and (max-width: 567px) {
+	#header .content { height: 680px; }
+}
+@media screen and (max-width: 520px) {
+	#header .content { height: 720px; }
+}
+@media screen and (max-width: 395px) {
+	#header .content { height: 770px; }
+	#header iframe { width: 300px; height: 165px; }
+}
+@media screen and (max-width: 340px) {
+	#header iframe { width: 270px; height: 150px; }
+}
+@media screen and (max-width: 326px) {
+	#header .content { height: 800px; }
+}
+
 
 /* Wavy border */
 .wavy {

@@ -20,13 +20,13 @@
 			<div id="header">
 
 				<div class="content">
-					<div class="mx-auto wrapper">
+					<div class="mx-auto px-5 px-md-0 wrapper">
 						
 						<!-- Logo -->
 						<div class="text-center pt-5 mb-5">
 							<a href="index.php" title="Midia Pack - Centenas de Arquivos Editáveis Para Empresas e Microempreendedores"><img src="images/logo.png" height="100px"></a>
 
-							<h1 class="h2 text-white text-uppercase font-weight-bold mt-3">Cresça a imagem da sua empresa ou negócio conosco!</h1>
+							<h1 class="h2 copy-1 text-white text-uppercase font-weight-bold mt-3">Cresça a imagem da sua empresa ou negócio conosco!</h1>
 							<p class="h4 text-primary">Pacote de artes editáveis exclusivas para sua empresa</p>
 						</div>
 
@@ -35,15 +35,21 @@
 					<div class="container">
 						<div class="row mt-5">
 							
-							<div class="position-relative col-12 col-md-6 d-flex justify-content-center" style="align-items: center;">
-								<h2 class="h2 text-light font-weight-normal text-center">Seu negócio merece uma cara nova. Inove com novas artes e veja o tão resultado chegar de forma eficaz.</h2>
+							<div class="position-relative call-to-action col-12 col-md-6 d-flex justify-content-center" style="align-items: center;">
+								<h2 class="h2 copy-2 text-light font-weight-normal text-center">Seu negócio merece uma cara nova. Inove com novas artes e veja o tão resultado chegar de forma eficaz.</h2>
 
 
 								<!-- Call to action button -->
-								<button type="button" class="btn-cta">Desejo o Kit!</button>
+								<div class="details text-center mt-0 mt-md-5">
+									<p class="text-white h5 mb-3 font-weight-light d-block">
+										<span class="font-weight-bold">70% de desconto</span> no pacote completo
+										<span class="d-block">Em até <span class="font-weight-bold">10x no cartão de crédito</span></span>
+									</p>
+									<button type="button" class="btn-cta">Desejo o Kit!</button>
+								</div>
 							</div>
 
-							<div class="col-12 col-md-6">
+							<div class="text-center col-12 col-md-6">
 								<iframe width="500" height="280" src="https://www.youtube.com/embed/JyJ4b3XuYWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 
@@ -64,7 +70,7 @@
 		<!-- Body Section -->
 			<div id="body">
 				
-
+				
 
 			</div>
 		<!-- Body Section: End -->
